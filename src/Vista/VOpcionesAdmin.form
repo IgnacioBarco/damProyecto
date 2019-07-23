@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+        <BevelBorder/>
+      </Border>
+    </Property>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[900, 710]"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[900, 710]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jComboBox1" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jComboBox2" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="etiqueta_11" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etiqueta_12" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etiqueta_13" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etiqueta_14" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etiqueta_15" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etiqueta_16" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etiqueta_17" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etiqueta_18" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="etiqueta_17_campo" alignment="0" pref="368" max="32767" attributes="0"/>
+                                  <Component id="etiqueta_16_campo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="etiqueta_15_campo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="etiqueta_14_campo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="etiqueta_13_campo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="etiqueta_12_campo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="etiqueta_11_campo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="etiqueta_18_campo" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="etiqueta_07" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etiqueta_06_campo" min="-2" pref="200" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="etiqueta_06" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etiqueta_07_campo" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="etiqueta_04" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="etiqueta_01" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="etiqueta_03" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="etiqueta_04_campo" min="-2" pref="200" max="-2" attributes="0"/>
+                                              <Component id="etiqueta_01_campo" min="-2" pref="200" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="etiqueta_02" min="-2" max="-2" attributes="0"/>
+                                              <Component id="etiqueta_05" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="etiqueta_02_campo" min="-2" pref="154" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="etiqueta_05_campo" min="-2" pref="154" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Component id="etiqueta_03_campo" min="-2" pref="448" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="2" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="boton_05" max="32767" attributes="0"/>
+                  <Component id="boton_04" max="32767" attributes="0"/>
+                  <Component id="boton_02" alignment="0" max="32767" attributes="0"/>
+                  <Component id="boton_01" alignment="0" max="32767" attributes="0"/>
+                  <Component id="boton_03" max="32767" attributes="0"/>
+                  <Component id="boton_06" max="32767" attributes="0"/>
+                  <Component id="etiqueta_10" alignment="0" max="32767" attributes="0"/>
+                  <Component id="etiqueta_00" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="263" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="etiqueta_00" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="etiqueta_01_campo" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="etiqueta_01" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiqueta_02" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiqueta_02_campo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="etiqueta_03_campo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiqueta_03" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="etiqueta_05_campo" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="etiqueta_05" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiqueta_04_campo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiqueta_04" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="etiqueta_06_campo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiqueta_07" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiqueta_06" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiqueta_07_campo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                      <Component id="boton_01" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="boton_02" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <Component id="boton_03" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jComboBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiqueta_10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="etiqueta_11_campo" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="etiqueta_11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="etiqueta_12_campo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiqueta_12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="etiqueta_13_campo" min="-2" max="-2" attributes="0"/>
+                          <Component id="etiqueta_13" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
+                      <Component id="boton_04" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="boton_05" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Component id="boton_06" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="27" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="etiqueta_14_campo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="etiqueta_14" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="etiqueta_15_campo" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="etiqueta_15" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="etiqueta_16_campo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="etiqueta_16" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="etiqueta_17_campo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="etiqueta_17" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="etiqueta_18_campo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="etiqueta_18" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="87" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="boton_04">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="boton_04"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_04ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_05">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="boton_05"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_05ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox1ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_02">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_02"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="etiqueta_02_campo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="etiqueta_02_campoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_01">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_01"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="etiqueta_01_campo">
+      <Properties>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="etiqueta_01_campoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_03">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_03"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="etiqueta_03_campo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="etiqueta_03_campoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_04">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_04"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="etiqueta_04_campo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="etiqueta_04_campoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_05">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_05"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="etiqueta_05_campo">
+      <Properties>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="etiqueta_05_campoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_06">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_06"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="etiqueta_06_campo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="etiqueta_06_campoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_07">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_07"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="etiqueta_07_campo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="etiqueta_07_campoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="etiqueta_18_campo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="etiqueta_18_campoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="etiqueta_13_campo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="etiqueta_13_campoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_14"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="etiqueta_14_campo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_15"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="etiqueta_15_campo">
+      <Properties>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox2ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_16"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_12"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="etiqueta_16_campo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="etiqueta_16_campoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="etiqueta_12_campo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="etiqueta_12_campoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_17"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_11"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="etiqueta_17_campo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="etiqueta_11_campo">
+      <Properties>
+        <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="etiqueta_11_campoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_18"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="etiqueta_13"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_01">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="boton_01"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_01ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_02">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="boton_02"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_02ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_03">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="boton_03"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_03ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="boton_06">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="boton_06"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boton_06ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_10">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="etiqueta_10"/>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="etiqueta_00">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="etiqueta_00"/>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

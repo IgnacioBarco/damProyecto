@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" language="groovy" pageWidth="650" pageHeight="900" columnWidth="610" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="bc97b104-3e50-4c79-9f50-8573828aed25">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[ select  
+usuario.id,
+usuario.activo,
+usuario.id_empleado,
+(select nombre from datos where id= usuario.id_datos) as nombre,
+(select apellidos from datos where id= usuario.id_datos) as apellidos,
+(select dni from datos where id= usuario.id_datos) as dni,
+--direccion
+(select direccion from datos_direccion where id= 
+		(select id_direccion from datos where id= usuario.id_datos)) as direccion,
+--ciudad
+(select ciudad from datos_ciudad where id= 
+	(select id_ciudad from datos_direccion where id= 
+		(select id_direccion from datos where id= usuario.id_datos))) as ciudad,
+--cp
+(select cp from datos_cp where id= 
+	(select id_cp from datos_direccion where id= 
+		(select id_direccion from datos where id= usuario.id_datos))) as cp,
+		
+	usuario.f_Nacimiento,
+	usuario.fecha_Inicio,
+	usuario.fecha_Fin,
+	usuario.id_Datos_Facturacion,
+	usuario.sesiones_Semanales,
+	usuario.grado_Discapacidad,
+	usuario.diagnostico,
+	usuario.motivo_Consulta,
+	usuario.objetivos,
+	usuario.observaciones,
+
+(select	email from datos_email where id=
+	(select id_email from datos where id = usuario.id_datos )) as EMAIL,
+
+(select	telefono from datos_telefono where id= 
+	(select id_telefono from datos where id= usuario.ID_DATOS ))as TELEFONO,
+
+usuario.id_datos
+
+	from USUARIO]]>
+	</queryString>
+	<field name="ID" class="java.lang.Object"/>
+	<field name="ACTIVO" class="java.lang.Object"/>
+	<field name="ID_EMPLEADO" class="java.lang.Object"/>
+	<field name="nombre" class="java.lang.Object"/>
+	<field name="apellidos" class="java.lang.Object"/>
+	<field name="dni" class="java.lang.Object"/>
+	<field name="direccion" class="java.lang.Object"/>
+	<field name="ciudad" class="java.lang.Object"/>
+	<field name="cp" class="java.lang.Object"/>
+	<field name="F_NACIMIENTO" class="java.lang.Object"/>
+	<field name="FECHA_INICIO" class="java.lang.Object"/>
+	<field name="FECHA_FIN" class="java.lang.Object"/>
+	<field name="ID_DATOS_FACTURACION" class="java.lang.Object"/>
+	<field name="SESIONES_SEMANALES" class="java.lang.Object"/>
+	<field name="GRADO_DISCAPACIDAD" class="java.lang.Object"/>
+	<field name="DIAGNOSTICO" class="java.lang.Object"/>
+	<field name="MOTIVO_CONSULTA" class="java.lang.Object"/>
+	<field name="OBJETIVOS" class="java.lang.Object"/>
+	<field name="OBSERVACIONES" class="java.lang.Object"/>
+	<field name="EMAIL" class="java.lang.Object"/>
+	<field name="TELEFONO" class="java.lang.Object"/>
+	<field name="ID_DATOS" class="java.lang.Object"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="600" height="79" uuid="d68b1a65-b053-4762-9387-ad00a16f2680"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="40" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Listado de Usuarios]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="73" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="21" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="20" uuid="f6acb3ef-93a5-48df-8c72-fa10e4c59c8d"/>
+				<text><![CDATA[nombre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="0" width="100" height="20" uuid="6723daf7-6be1-424a-8359-fcba556eb95c"/>
+				<text><![CDATA[apellidos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="0" width="100" height="20" uuid="1952d2e0-7bb4-45ab-a5b4-f736a688ab2d"/>
+				<text><![CDATA[dni]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="0" width="100" height="20" uuid="88270bcb-2507-4071-914c-eb6c21cb37b9"/>
+				<text><![CDATA[F_NACIMIENTO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="400" y="0" width="100" height="20" uuid="160f4bfd-154c-43d2-bb9d-1a7d6070c7da"/>
+				<text><![CDATA[FECHA_INICIO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="500" y="0" width="100" height="20" uuid="f371cd70-0ef4-4fc8-ab05-2b0506af896c"/>
+				<text><![CDATA[FECHA_FIN]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="27" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="100" height="20" uuid="f4ceb3ee-9c37-42e9-8f82-16834f7761c2"/>
+				<textFieldExpression><![CDATA[""+$F{nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="0" width="100" height="20" uuid="04f301df-6501-4db7-a1e4-35cb9b1cff21"/>
+				<textFieldExpression><![CDATA[""+$F{apellidos}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="200" y="0" width="100" height="20" uuid="1ce0037c-cce1-40ab-9787-03ca3c1f86fb"/>
+				<textFieldExpression><![CDATA[""+$F{dni}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="0" width="100" height="20" uuid="7c41c6ae-3ba1-4ecc-801d-01887523bfae"/>
+				<textFieldExpression><![CDATA[""+$F{F_NACIMIENTO}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="20" width="610" height="1" uuid="a2faa50a-18b0-44db-b0b2-000fbffcd76e"/>
+			</line>
+			<textField>
+				<reportElement x="400" y="0" width="100" height="20" uuid="4be42b87-2847-48a1-981e-1ce01d8ed510"/>
+				<textFieldExpression><![CDATA[""+$F{FECHA_INICIO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="500" y="1" width="100" height="20" uuid="3a740035-0785-4b53-acdf-799c0c238642"/>
+				<textFieldExpression><![CDATA[""+$F{FECHA_FIN}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="43" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="60" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
